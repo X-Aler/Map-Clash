@@ -1,0 +1,10 @@
+{
+  "name": "Game.Tests.EditMode",
+  "rootNamespace": "MapClash.Tests",
+  "references": ["Game.Runtime", "UnityEngine.TestRunner", "UnityEditor.TestRunner", "VContainer"],
+  "includePlatforms": ["Editor"],
+  "overrideReferences": true,
+  "precompiledReferences": ["nunit.framework.dll"],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"]
+}

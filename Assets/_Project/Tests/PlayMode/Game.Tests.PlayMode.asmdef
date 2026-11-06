@@ -1,0 +1,9 @@
+{
+  "name": "Game.Tests.PlayMode",
+  "rootNamespace": "MapClash.Tests",
+  "references": ["Game.Runtime", "UnityEngine.TestRunner", "Unity.InputSystem", "Unity.TextMeshPro", "VContainer"],
+  "overrideReferences": true,
+  "precompiledReferences": ["nunit.framework.dll"],
+  "autoReferenced": false,
+  "defineConstraints": ["UNITY_INCLUDE_TESTS"]
+}

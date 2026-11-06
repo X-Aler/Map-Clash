@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e57fd348a28b31d4698afb521bb2766b, type: 3}
+  m_Name: GameBalance
+  m_EditorClassIdentifier: Game.Runtime::MapClash.GameBalanceConfig
+  _startingPopulation: 25000
+  _startingGold: 50000
+  _startingTroopRatio: 0.7
+  _basePopulation: 50000
+  _cityPopulationBonus: 25000
+  _workerIncomePerSecond: 0.05
+  _workerGrowthMultiplier: 1.3
+  _roleConversionPerSecond: 0.05
+  _minReserveFraction: 0.2
+  _baseTileCost: 2
+  _startingRadius: 4
+  _spawnSeconds: 15
+  _returnTicks: 20
+  _recallSurvivalFraction: 0.75
+  _baseAdvancePerSecond: 100
+  _troopAdvanceCoefficient: 0.01
+  _maxAdvancePerSecond: 2000
+  _captureSpread: 0.5

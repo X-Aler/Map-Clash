@@ -20,6 +20,10 @@ missing or inaccessible, report that when relevant; do not invent its contents.
 
 ## Git workflow
 
+The project's GitHub repository is `https://github.com/X-Aler/Map-Clash`.
+It was renamed from `X-Aler/My-project` on 2026-11-06; these are the same
+repository. Verify the local remote before publishing.
+
 The user authorized autonomous local commits on 2026-11-06. After a coherent
 change is implemented and checked, create a focused commit without asking the
 user to approve the commit or write its message. Also commit when explicitly

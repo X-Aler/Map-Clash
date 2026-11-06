@@ -1,0 +1,6 @@
+{
+  "name": "Game.Runtime",
+  "rootNamespace": "MapClash",
+  "references": ["Unity.InputSystem", "VContainer", "Unity.Localization", "Unity.Addressables", "Unity.ResourceManager", "Unity.TextMeshPro"],
+  "autoReferenced": true
+}

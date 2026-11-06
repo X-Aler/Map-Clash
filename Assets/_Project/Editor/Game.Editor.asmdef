@@ -1,0 +1,7 @@
+{
+  "name": "Game.Editor",
+  "rootNamespace": "MapClash.Editor",
+  "references": ["Game.Runtime", "Unity.Localization", "Unity.Localization.Editor", "Unity.Addressables.Editor", "Unity.TextMeshPro", "Unity.InputSystem", "VContainer"],
+  "includePlatforms": ["Editor"],
+  "autoReferenced": true
+}

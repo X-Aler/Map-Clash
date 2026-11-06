@@ -1,0 +1,521 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: Game_en
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.StringTable
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 2fd5bfc02c2f6c84da5ed058073e3c98, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 11780743168
+    m_Localized: MAP CLASH
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12011429888
+    m_Localized: GLOBAL STRATEGY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12015624192
+    m_Localized: Found a country. Expand your borders. Shape the world.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12015624193
+    m_Localized: Your country name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818496
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818497
+    m_Localized: Quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818498
+    m_Localized: My Country
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818499
+    m_Localized: New match
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818500
+    m_Localized: "WORLD MAP \xB7 SINGLE PLAYER"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818501
+    m_Localized: 'Countries: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818502
+    m_Localized: 1 player + {0} bots. All remaining land is free.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818503
+    m_Localized: AI difficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818504
+    m_Localized: Easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818505
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818506
+    m_Localized: Hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818507
+    m_Localized: 'Victory: control {0}% of the world''s land'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818508
+    m_Localized: 'Time limit: 20 minutes'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818509
+    m_Localized: Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818510
+    m_Localized: Choose starting point
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818511
+    m_Localized: Back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818512
+    m_Localized: Close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818513
+    m_Localized: Main menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818514
+    m_Localized: Paused
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818515
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818516
+    m_Localized: "Pause \xB7 Esc"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818517
+    m_Localized: PEACE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818518
+    m_Localized: AT WAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818519
+    m_Localized: Choose your capital
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818520
+    m_Localized: Click free land. A starting point will be chosen automatically if you do not select one.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818521
+    m_Localized: '{0:0} s'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818522
+    m_Localized: SEND TROOPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818523
+    m_Localized: Each dispatch keeps at least 20% of your available troops at home.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818524
+    m_Localized: Troops {0}% / Workers {1}%
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818525
+    m_Localized: ACTIVE OPERATIONS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818526
+    m_Localized: No active operations.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818527
+    m_Localized: "LMB: expand / attack \xB7 RMB: actions \xB7 Drag LMB / WASD: pan \xB7 Wheel: zoom \xB7 Q / E: attack ratio \xB7 Space: terrain"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818528
+    m_Localized: Population  {0:N0} / {1:N0}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818529
+    m_Localized: Growth  +{0:N0} / s
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818530
+    m_Localized: Gold  {0:N0}  (+{1:N0} / s)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818531
+    m_Localized: "Home {0:N0} \xB7 Sent {1:N0} \xB7 Returning {2:N0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818532
+    m_Localized: "Leader: {0}  \xB7  {1:F2}%"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818533
+    m_Localized: "Your land: {0:F2}%  \xB7  Victory target: {1:0}%"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818534
+    m_Localized: '{0:00}:{1:00}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818535
+    m_Localized: Free land
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818536
+    m_Localized: Attack / reinforce
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818537
+    m_Localized: "\u2192 {0} \xB7 {1:N0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818538
+    m_Localized: "Returning \xB7 {1:N0}"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818539
+    m_Localized: Recall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818540
+    m_Localized: MATCH COMPLETE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818541
+    m_Localized: Victory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818542
+    m_Localized: Defeat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818543
+    m_Localized: Draw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818544
+    m_Localized: 'Time: {0:00}:{1:00}
+
+      Peak territory: {2:F2}%
+
+      Gold earned: {3:N0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818545
+    m_Localized: Play again
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818546
+    m_Localized: Starting point selected.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818547
+    m_Localized: The match has started.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818548
+    m_Localized: Action unavailable. Check your border and available troops.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818549
+    m_Localized: Troops dispatched.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818550
+    m_Localized: Reinforcements dispatched.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818551
+    m_Localized: Surviving troops are returning.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818552
+    m_Localized: A country has been annexed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818553
+    m_Localized: The match has ended.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315433328640
+    m_Localized: Brazil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048896
+    m_Localized: Japan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048897
+    m_Localized: France
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048898
+    m_Localized: Canada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048899
+    m_Localized: India
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048900
+    m_Localized: Australia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048901
+    m_Localized: Egypt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048902
+    m_Localized: Mexico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048903
+    m_Localized: Italy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048904
+    m_Localized: Argentina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243200
+    m_Localized: Norway
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243201
+    m_Localized: Kenya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243202
+    m_Localized: Spain
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243203
+    m_Localized: Indonesia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243204
+    m_Localized: Germany
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243205
+    m_Localized: Chile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243206
+    m_Localized: Sweden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243207
+    m_Localized: South Korea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243208
+    m_Localized: Nigeria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243209
+    m_Localized: "T\xFCrkiye"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243210
+    m_Localized: Poland
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243211
+    m_Localized: South Africa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243212
+    m_Localized: Thailand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243213
+    m_Localized: Peru
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243214
+    m_Localized: Greece
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243215
+    m_Localized: New Zealand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243216
+    m_Localized: Vietnam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243217
+    m_Localized: Finland
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243218
+    m_Localized: Morocco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243219
+    m_Localized: Colombia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243220
+    m_Localized: Portugal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243221
+    m_Localized: Philippines
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243222
+    m_Localized: Austria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243223
+    m_Localized: Malaysia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243224
+    m_Localized: Ireland
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243225
+    m_Localized: Pakistan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243226
+    m_Localized: Denmark
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243227
+    m_Localized: Ethiopia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243228
+    m_Localized: Uruguay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243229
+    m_Localized: Nepal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243230
+    m_Localized: Switzerland
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243231
+    m_Localized: Kazakhstan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243232
+    m_Localized: Belgium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243233
+    m_Localized: Tanzania
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243234
+    m_Localized: Czechia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243235
+    m_Localized: Ghana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243236
+    m_Localized: Romania
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243237
+    m_Localized: Algeria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243238
+    m_Localized: Hungary
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243239
+    m_Localized: Iceland
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243240
+    m_Localized: Senegal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243241
+    m_Localized: Croatia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243242
+    m_Localized: Tunisia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243243
+    m_Localized: Ecuador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243244
+    m_Localized: Bulgaria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243245
+    m_Localized: Panama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243246
+    m_Localized: Mongolia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243247
+    m_Localized: Slovakia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243248
+    m_Localized: Costa Rica
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38692625309696
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43138990202880
+    m_Localized: 'Attack: {0:N0}
+
+      Defense: {1:N0}'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,124 @@
+Key	en	ru
+game.title	MAP CLASH	MAP CLASH
+menu.eyebrow	GLOBAL STRATEGY	ГЛОБАЛЬНАЯ СТРАТЕГИЯ
+menu.description	Found a country. Expand your borders. Shape the world.	Основывай страну. Расширяй границы. Меняй мир.
+menu.countryName	Your country name	Название твоей страны
+menu.play	Play	Играть
+menu.quit	Quit	Выйти
+player.defaultName	My Country	Моя страна
+setup.title	New match	Новая партия
+setup.worldMap	WORLD MAP · SINGLE PLAYER	КАРТА МИРА · ОДИНОЧНАЯ ИГРА
+setup.countries	Countries: {0}	Количество стран: {0}
+setup.countryHelp	1 player + {0} bots. All remaining land is free.	1 игрок + {0} ботов. Остальная суша свободна.
+setup.difficulty	AI difficulty	Сложность ИИ
+difficulty.easy	Easy	Лёгкая
+difficulty.normal	Normal	Обычная
+difficulty.hard	Hard	Сложная
+setup.victory	Victory: control {0}% of the world's land	Победа: захвати {0}% суши мира
+setup.timer	Time limit: 20 minutes	Таймер: 20 минут
+setup.volume	Volume	Громкость
+setup.start	Choose starting point	Выбрать точку старта
+common.back	Back	Назад
+common.close	Close	Закрыть
+common.mainMenu	Main menu	Главное меню
+pause.title	Paused	Пауза
+pause.resume	Resume	Продолжить
+hud.pause	Pause · Esc	Пауза · Esc
+hud.protected	PEACE	МИР
+hud.atWar	AT WAR	ВОЙНА
+spawn.title	Choose your capital	Выбери столицу
+spawn.help	Click free land. A starting point will be chosen automatically if you do not select one.	Нажми на свободную сушу. Без выбора стартовая точка назначится автоматически.
+spawn.countdown	{0:0} s	{0:0} с
+hud.attackTitle	SEND TROOPS	ОТПРАВКА ВОЙСК
+hud.reserveHelp	Each dispatch keeps at least 20% of your available troops at home.	Каждая отправка оставляет дома не менее 20% доступных войск.
+hud.roles	Troops {0}% / Workers {1}%	Войска {0}% / Рабочие {1}%
+hud.operations	ACTIVE OPERATIONS	АКТИВНЫЕ ОПЕРАЦИИ
+hud.noOperations	No active operations.	Активных операций нет.
+hud.mapHelp	LMB: expand / attack · RMB: actions · Drag LMB / WASD: pan · Wheel: zoom · Q / E: attack ratio · Space: terrain	ЛКМ: экспансия / атака · ПКМ: действия · Зажатая ЛКМ / WASD: камера · Колесо: масштаб · Q / E: доля атаки · Space: рельеф
+hud.population	Population  {0:N0} / {1:N0}	Население  {0:N0} / {1:N0}
+hud.growth	Growth  +{0:N0} / s	Прирост  +{0:N0} / с
+hud.gold	Gold  {0:N0}  (+{1:N0} / s)	Казна  {0:N0}  (+{1:N0} / с)
+hud.troops	Home {0:N0} · Sent {1:N0} · Returning {2:N0}	Дома {0:N0} · Отправлено {1:N0} · Возврат {2:N0}
+hud.leader	Leader: {0}  ·  {1:F2}%	Лидер: {0}  ·  {1:F2}%
+hud.domination	Your land: {0:F2}%  ·  Victory target: {1:0}%	Твоя суша: {0:F2}%  ·  Для победы: {1:0}%
+hud.clock	{0:00}:{1:00}	{0:00}:{1:00}
+context.freeLand	Free land	Свободная земля
+context.attack	Attack / reinforce	Атаковать / подкрепить
+operation.advancing	→ {0} · {1:N0}	→ {0} · {1:N0}
+operation.returning	Returning · {1:N0}	Возвращаются · {1:N0}
+operation.recall	Recall	Отзыв
+result.eyebrow	MATCH COMPLETE	ПАРТИЯ ЗАВЕРШЕНА
+result.victory	Victory	Победа
+result.defeat	Defeat	Поражение
+result.draw	Draw	Ничья
+result.stats	Time: {0:00}:{1:00}\nPeak territory: {2:F2}%\nGold earned: {3:N0}	Время: {0:00}:{1:00}\nПик территории: {2:F2}%\nЗаработано золота: {3:N0}
+result.retry	Play again	Сыграть снова
+event.spawn.selected	Starting point selected.	Точка старта выбрана.
+event.match.started	The match has started.	Матч начался.
+event.command.invalid	Action unavailable. Check your border and available troops.	Действие недоступно. Проверь общую границу и доступные войска.
+event.attack.started	Troops dispatched.	Войска отправлены.
+event.attack.reinforced	Reinforcements dispatched.	Подкрепление отправлено.
+event.operation.returning	Surviving troops are returning.	Выжившие войска возвращаются.
+event.country.annexed	A country has been annexed.	Страна аннексирована.
+event.match.finished	The match has ended.	Матч завершён.
+country.bot.1	Brazil	Бразилия
+country.bot.2	Japan	Япония
+country.bot.3	France	Франция
+country.bot.4	Canada	Канада
+country.bot.5	India	Индия
+country.bot.6	Australia	Австралия
+country.bot.7	Egypt	Египет
+country.bot.8	Mexico	Мексика
+country.bot.9	Italy	Италия
+country.bot.10	Argentina	Аргентина
+country.bot.11	Norway	Норвегия
+country.bot.12	Kenya	Кения
+country.bot.13	Spain	Испания
+country.bot.14	Indonesia	Индонезия
+country.bot.15	Germany	Германия
+country.bot.16	Chile	Чили
+country.bot.17	Sweden	Швеция
+country.bot.18	South Korea	Южная Корея
+country.bot.19	Nigeria	Нигерия
+country.bot.20	Türkiye	Турция
+country.bot.21	Poland	Польша
+country.bot.22	South Africa	Южная Африка
+country.bot.23	Thailand	Таиланд
+country.bot.24	Peru	Перу
+country.bot.25	Greece	Греция
+country.bot.26	New Zealand	Новая Зеландия
+country.bot.27	Vietnam	Вьетнам
+country.bot.28	Finland	Финляндия
+country.bot.29	Morocco	Марокко
+country.bot.30	Colombia	Колумбия
+country.bot.31	Portugal	Португалия
+country.bot.32	Philippines	Филиппины
+country.bot.33	Austria	Австрия
+country.bot.34	Malaysia	Малайзия
+country.bot.35	Ireland	Ирландия
+country.bot.36	Pakistan	Пакистан
+country.bot.37	Denmark	Дания
+country.bot.38	Ethiopia	Эфиопия
+country.bot.39	Uruguay	Уругвай
+country.bot.40	Nepal	Непал
+country.bot.41	Switzerland	Швейцария
+country.bot.42	Kazakhstan	Казахстан
+country.bot.43	Belgium	Бельгия
+country.bot.44	Tanzania	Танзания
+country.bot.45	Czechia	Чехия
+country.bot.46	Ghana	Гана
+country.bot.47	Romania	Румыния
+country.bot.48	Algeria	Алжир
+country.bot.49	Hungary	Венгрия
+country.bot.50	Iceland	Исландия
+country.bot.51	Senegal	Сенегал
+country.bot.52	Croatia	Хорватия
+country.bot.53	Tunisia	Тунис
+country.bot.54	Ecuador	Эквадор
+country.bot.55	Bulgaria	Болгария
+country.bot.56	Panama	Панама
+country.bot.57	Mongolia	Монголия
+country.bot.58	Slovakia	Словакия
+country.bot.59	Costa Rica	Коста-Рика
+settings.title	Settings	Настройки
+operation.front	Attack: {0:N0}\nDefense: {1:N0}	Атака: {0:N0}\nОборона: {1:N0}

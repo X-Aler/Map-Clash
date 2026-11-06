@@ -1,0 +1,520 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: Game Shared Data
+  m_EditorClassIdentifier: Unity.Localization::UnityEngine.Localization.Tables.SharedTableData
+  m_TableCollectionName: Game
+  m_TableCollectionNameGuidString: 2fd5bfc02c2f6c84da5ed058073e3c98
+  m_Entries:
+  - m_Id: 11780743168
+    m_Key: game.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12011429888
+    m_Key: menu.eyebrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12015624192
+    m_Key: menu.description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12015624193
+    m_Key: menu.countryName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818496
+    m_Key: menu.play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818497
+    m_Key: menu.quit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818498
+    m_Key: player.defaultName
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818499
+    m_Key: setup.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818500
+    m_Key: setup.worldMap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818501
+    m_Key: setup.countries
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818502
+    m_Key: setup.countryHelp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818503
+    m_Key: setup.difficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818504
+    m_Key: difficulty.easy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818505
+    m_Key: difficulty.normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818506
+    m_Key: difficulty.hard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818507
+    m_Key: setup.victory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818508
+    m_Key: setup.timer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818509
+    m_Key: setup.volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818510
+    m_Key: setup.start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818511
+    m_Key: common.back
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818512
+    m_Key: common.close
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818513
+    m_Key: common.mainMenu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818514
+    m_Key: pause.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818515
+    m_Key: pause.resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818516
+    m_Key: hud.pause
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818517
+    m_Key: hud.protected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818518
+    m_Key: hud.atWar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818519
+    m_Key: spawn.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818520
+    m_Key: spawn.help
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818521
+    m_Key: spawn.countdown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818522
+    m_Key: hud.attackTitle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818523
+    m_Key: hud.reserveHelp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818524
+    m_Key: hud.roles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818525
+    m_Key: hud.operations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818526
+    m_Key: hud.noOperations
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818527
+    m_Key: hud.mapHelp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818528
+    m_Key: hud.population
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818529
+    m_Key: hud.growth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818530
+    m_Key: hud.gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818531
+    m_Key: hud.troops
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818532
+    m_Key: hud.leader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818533
+    m_Key: hud.domination
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818534
+    m_Key: hud.clock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818535
+    m_Key: context.freeLand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818536
+    m_Key: context.attack
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818537
+    m_Key: operation.advancing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818538
+    m_Key: operation.returning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818539
+    m_Key: operation.recall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818540
+    m_Key: result.eyebrow
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818541
+    m_Key: result.victory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818542
+    m_Key: result.defeat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818543
+    m_Key: result.draw
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818544
+    m_Key: result.stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818545
+    m_Key: result.retry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818546
+    m_Key: event.spawn.selected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818547
+    m_Key: event.match.started
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818548
+    m_Key: event.command.invalid
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818549
+    m_Key: event.attack.started
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818550
+    m_Key: event.attack.reinforced
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818551
+    m_Key: event.operation.returning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818552
+    m_Key: event.country.annexed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12019818553
+    m_Key: event.match.finished
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315433328640
+    m_Key: country.bot.1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048896
+    m_Key: country.bot.2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048897
+    m_Key: country.bot.3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048898
+    m_Key: country.bot.4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048899
+    m_Key: country.bot.5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048900
+    m_Key: country.bot.6
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048901
+    m_Key: country.bot.7
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048902
+    m_Key: country.bot.8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048903
+    m_Key: country.bot.9
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315492048904
+    m_Key: country.bot.10
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243200
+    m_Key: country.bot.11
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243201
+    m_Key: country.bot.12
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243202
+    m_Key: country.bot.13
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243203
+    m_Key: country.bot.14
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243204
+    m_Key: country.bot.15
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243205
+    m_Key: country.bot.16
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243206
+    m_Key: country.bot.17
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243207
+    m_Key: country.bot.18
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243208
+    m_Key: country.bot.19
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243209
+    m_Key: country.bot.20
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243210
+    m_Key: country.bot.21
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243211
+    m_Key: country.bot.22
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243212
+    m_Key: country.bot.23
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243213
+    m_Key: country.bot.24
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243214
+    m_Key: country.bot.25
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243215
+    m_Key: country.bot.26
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243216
+    m_Key: country.bot.27
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243217
+    m_Key: country.bot.28
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243218
+    m_Key: country.bot.29
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243219
+    m_Key: country.bot.30
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243220
+    m_Key: country.bot.31
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243221
+    m_Key: country.bot.32
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243222
+    m_Key: country.bot.33
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243223
+    m_Key: country.bot.34
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243224
+    m_Key: country.bot.35
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243225
+    m_Key: country.bot.36
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243226
+    m_Key: country.bot.37
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243227
+    m_Key: country.bot.38
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243228
+    m_Key: country.bot.39
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243229
+    m_Key: country.bot.40
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243230
+    m_Key: country.bot.41
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243231
+    m_Key: country.bot.42
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243232
+    m_Key: country.bot.43
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243233
+    m_Key: country.bot.44
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243234
+    m_Key: country.bot.45
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243235
+    m_Key: country.bot.46
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243236
+    m_Key: country.bot.47
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243237
+    m_Key: country.bot.48
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243238
+    m_Key: country.bot.49
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243239
+    m_Key: country.bot.50
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243240
+    m_Key: country.bot.51
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243241
+    m_Key: country.bot.52
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243242
+    m_Key: country.bot.53
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243243
+    m_Key: country.bot.54
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243244
+    m_Key: country.bot.55
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243245
+    m_Key: country.bot.56
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243246
+    m_Key: country.bot.57
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243247
+    m_Key: country.bot.58
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20315496243248
+    m_Key: country.bot.59
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38692625309696
+    m_Key: settings.title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43138990202880
+    m_Key: operation.front
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 7486679270837977113
+  references:
+    version: 2
+    RefIds:
+    - rid: 7486679270837977113
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1793953355140

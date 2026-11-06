@@ -1,0 +1,42 @@
+{
+  "projection": "EPSG:4326 equirectangular; -180..180 longitude, -90..90 latitude",
+  "mask_size": [
+    4096,
+    2048
+  ],
+  "grid_size": [
+    2048,
+    1024
+  ],
+  "runtime_origin": "southwest; x east, y north; row-major",
+  "rasterization": "Exact center even-odd scan conversion; no morphological edits; lakes subtract land",
+  "elevation_sampling": "Nearest cell-center ETOPO2022 Ice Surface 60 arc-second",
+  "terrain_thresholds_m": {
+    "plains": "<500",
+    "highlands": "500..1499",
+    "mountains": ">=1500"
+  },
+  "total_land_tiles": 688403,
+  "terrain_counts": [
+    1408749,
+    309182,
+    168892,
+    210329
+  ],
+  "source_sha256": {
+    "ETOPO_2022_v1_60s_N90W180_surface.tif": "9d27d4b8ea8e76977e2988bca667d7c8fa68b927355feffcddd6b4875a7fd08e",
+    "ne_10m_lakes.zip": "0803a06f9c3cb4671d89b68c48b142aad9366ba40f665245e12a913fbc61722a",
+    "ne_10m_land.zip": "e547d749445eaa0964aba76738090ec88f5e63c4585122170f98c67a7ea922dc"
+  },
+  "output_sha256": {
+    "LakeMask.png": "4593cda735f819df81c1ea5f966f246f55ff6477b0c3810733ce2d7ff75f56d1",
+    "LandMask.png": "b838d240627789159a7f2766037f3e9aa4aeaf18ad417667f7eed4ad7d131baa",
+    "TerrainMask.png": "7f0c5e866d8c2d4ca2af87ac415b1fd6ff9d1cb7857ac25b3fdcc9847bbcc1e0",
+    "WaterMask.png": "ce9c9f40b215b6f563f8f089076f23acd4c240d35917beae7459ce23aa4f2f45",
+    "WorldPreview.png": "b503388940abea6c0132d3f44ea42e8d577ef821c8959c1a9820965080618bad"
+  },
+  "runtime_sha256": "5ec085bc3151af106d29588a6d04fe50b02375dd5ca1250d49ba5c60f5a14459",
+  "vector_sha256": {
+    "WorldCoastline.svg": "074ff9b356fb965027a6ff0193a6e3de24ce8a673c4b837e4c44a356c51c7849"
+  }
+}

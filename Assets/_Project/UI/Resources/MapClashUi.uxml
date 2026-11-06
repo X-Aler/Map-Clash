@@ -1,0 +1,128 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements">
+    <ui:Style src="MapClashUi.uss" />
+    <ui:VisualElement name="gameRoot" class="screen" picking-mode="Ignore">
+        <ui:VisualElement name="hud" class="screen hidden" picking-mode="Ignore">
+            <ui:VisualElement class="row spread hud-top" picking-mode="Ignore">
+                <ui:VisualElement class="panel leader-panel">
+                    <ui:Label name="leaderText" class="leader-name" />
+                    <ui:Label name="stateIndicator" class="state-indicator" />
+                    <ui:ProgressBar name="dominationProgress" class="progress" low-value="0" high-value="100">
+                        <ui:VisualElement name="victoryMarker" class="victory-marker" picking-mode="Ignore" />
+                    </ui:ProgressBar>
+                    <ui:Label name="dominationText" class="muted" />
+                </ui:VisualElement>
+                <ui:VisualElement class="panel row clock-panel">
+                    <ui:Label name="matchClock" class="match-clock" />
+                    <ui:Button name="pauseButton" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="spawnPanel" class="panel spawn-panel hidden">
+                <ui:Label name="spawnCountdown" class="spawn-countdown" />
+                <ui:Label name="spawnTitle" class="section-heading" />
+                <ui:Label name="spawnHelp" class="muted" />
+            </ui:VisualElement>
+            <ui:Label name="mapHelp" class="map-help" picking-mode="Ignore" />
+            <ui:Label name="notification" class="panel notification hidden" picking-mode="Ignore" />
+            <ui:VisualElement class="hud-bottom" picking-mode="Ignore">
+                <ui:VisualElement class="panel country-panel">
+                    <ui:Label name="countryName" class="country-name" />
+                    <ui:Label name="populationText" class="stat" />
+                    <ui:Label name="growthText" class="stat positive" />
+                    <ui:Label name="goldText" class="stat gold" />
+                    <ui:Label name="troopsText" class="muted" />
+                </ui:VisualElement>
+                <ui:VisualElement class="panel attack-panel">
+                    <ui:Label name="attackTitle" class="section-heading" />
+                    <ui:VisualElement name="attackPresets" class="row">
+                        <ui:Button name="ratio10" class="preset" text="10%" />
+                        <ui:Button name="ratio25" class="preset" text="25%" />
+                        <ui:Button name="ratio35" class="preset" text="35%" />
+                        <ui:Button name="ratio50" class="preset" text="50%" />
+                        <ui:Button name="ratio75" class="preset" text="75%" />
+                    </ui:VisualElement>
+                    <ui:VisualElement class="row">
+                        <ui:SliderInt name="attackRatioSlider" class="attack-slider" low-value="1" high-value="80" value="25" />
+                        <ui:IntegerField name="attackRatioInput" class="ratio-input" value="25" />
+                    </ui:VisualElement>
+                    <ui:Label name="roleText" class="field-label" />
+                    <ui:SliderInt name="troopRatioSlider" low-value="0" high-value="100" value="70" />
+                    <ui:Label name="reserveHelp" class="muted" />
+                </ui:VisualElement>
+                <ui:VisualElement class="panel operations-panel">
+                    <ui:Label name="operationsTitle" class="section-heading" />
+                    <ui:Label name="noOperations" class="muted" />
+                    <ui:ScrollView name="operationsList" class="operations-list" horizontal-scroller-visibility="Hidden" />
+                </ui:VisualElement>
+            </ui:VisualElement>
+            <ui:VisualElement name="contextWheel" class="panel context-wheel hidden">
+                <ui:Label name="contextTitle" class="context-title" />
+                <ui:Button name="contextAttack" class="primary" />
+                <ui:Button name="contextClose" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="menuOverlay" class="modal-backdrop">
+            <ui:VisualElement class="panel menu-card">
+                <ui:VisualElement class="row menu-brand-row">
+                    <ui:Label name="menuEyebrow" class="eyebrow" />
+                    <ui:VisualElement class="row">
+                        <ui:Button name="languageRu" class="language-button" text="RU" />
+                        <ui:Button name="languageEn" class="language-button" text="EN" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+                <ui:Label name="brandTitle" class="brand" />
+                <ui:Label name="menuDescription" class="muted menu-description" />
+                <ui:VisualElement name="mainMenu">
+                    <ui:Label name="countryNameLabel" class="field-label" />
+                    <ui:TextField name="playerNameInput" class="form-field" max-length="28" />
+                    <ui:Button name="openSetupButton" class="primary start-button" />
+                    <ui:Button name="openSettingsButton" />
+                    <ui:Button name="quitButton" />
+                </ui:VisualElement>
+                <ui:VisualElement name="matchSetup" class="hidden">
+                    <ui:Label name="setupTitle" class="heading" />
+                    <ui:Label name="mapName" class="field-label" />
+                    <ui:Label name="countryCountText" class="field-label" />
+                    <ui:SliderInt name="countryCountSlider" low-value="10" high-value="60" value="40" show-input-field="true" />
+                    <ui:Label name="countryCountHelp" class="muted form-field" />
+                    <ui:Label name="difficultyLabel" class="field-label" />
+                    <ui:VisualElement class="row form-field">
+                        <ui:Button name="easyButton" class="grow" />
+                        <ui:Button name="normalButton" class="grow" />
+                        <ui:Button name="hardButton" class="grow" />
+                    </ui:VisualElement>
+                    <ui:Label name="victoryText" class="field-label" />
+                    <ui:SliderInt name="victorySlider" low-value="50" high-value="100" value="80" show-input-field="true" />
+                    <ui:Toggle name="timerToggle" class="form-field" />
+                    <ui:VisualElement class="row">
+                        <ui:Button name="backButton" />
+                        <ui:Button name="startMatchButton" class="primary grow start-button" />
+                    </ui:VisualElement>
+                </ui:VisualElement>
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="pauseOverlay" class="modal-backdrop hidden">
+            <ui:VisualElement class="panel compact-card">
+                <ui:Label name="pauseTitle" class="heading" />
+                <ui:Button name="resumeButton" class="primary" />
+                <ui:Button name="pauseSettingsButton" />
+                <ui:Button name="pauseMenuButton" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="resultOverlay" class="modal-backdrop hidden">
+            <ui:VisualElement class="panel compact-card">
+                <ui:Label name="resultEyebrow" class="eyebrow" />
+                <ui:Label name="resultTitle" class="heading" />
+                <ui:Label name="resultStats" class="result-stats" />
+                <ui:Button name="retryButton" class="primary" />
+                <ui:Button name="resultMenuButton" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+        <ui:VisualElement name="settingsOverlay" class="modal-backdrop hidden">
+            <ui:VisualElement class="panel compact-card">
+                <ui:Label name="settingsTitle" class="heading" />
+                <ui:Slider name="volumeSlider" low-value="0" high-value="1" value="0.7" />
+                <ui:Button name="settingsBackButton" />
+            </ui:VisualElement>
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>
